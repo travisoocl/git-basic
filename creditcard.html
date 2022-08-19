@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  	<h1>Credit Card Application Form</h1>
+  	<p>Required fileds are follows by *</p>
+  	<h2>Card Holder Details</h2>
+  	<form action="/echo" method="POST">
+  		<ul>Title *
+  			<li><input type="radio" name="Title" id="Mister">Mister</li>
+  			<li><input type="radio" name="Title" id="Miss">Miss</li>
+  		</ul>
+  		<p>Name: *<input type="text" name="Name" required=""></form></p>
+  		<p>Email Address: *<input type="email" name="Email" required=""></form></p>
+  		<ul>Gender *
+  			<li><input type="radio" name="Gender" id="Male">Male</li>
+  			<li><input type="radio" name="Gender" id="Female">Female</li>
+  		</ul>
+  		<p>Education
+  		<select name="Education" id="Education">
+	  		<option value="Professional">Professional</option>
+	  		<option value="Secondary">Secondary/High School</option>
+	  		<option value="Post-Graduate">Post-Graduate</option>
+	  		<option value="Primary">Primary School</option>
+	  		<option value="Graduate">Graduate</option>
+	  	</select>
+		</p>
+		<p>Marital Status
+  		<select name="Marital" id="Marital">
+	  		<option value="Single">Single</option>
+	  		<option value="Married">Married</option>
+	  		<option value="Divorced">Divorced</option>
+	  	</select>
+		</p>
+		<p>Number of Dependants: *<input type="number" name="Dependants" required=""></p>
+	  	<p>Registered Address 1: *<input type="text" name="Address" required=""></p>
+	  	<p>Registered Address 2: *<input type="text" name="Address2" required=""></p>
+	  	<p>Registered Address 3: *<input type="text" name="Address3" required=""></p>
+	  	<p>Zip Code: *<input type="number" name="Zip" required=""></p>
+	  	<p>Cellphone Number: *<input type="text" name="Cellphone" required=""></p>
+	  	<p>Landline Number: *<input type="text" name="Landline" required=""></p>
+	  	<p>Id/Passport Number: *<input type="text" name="Id" required="">
+	  		Date Issued <input type="Date" name="Iddate" required=""></p>
+	  	<p>Employer: *<input type="text" name="Employer" required=""></p>
+	  	<p>Company Address: *<input type="text" name="EmployerAddress" required=""></p>
+	  	<p>Employer Number: *<input type="text" name="EmployerNumber" required=""></p>
+		<p><button type="submit">Submit</button></p>
+  	</form>
+  </body>
+</html>
